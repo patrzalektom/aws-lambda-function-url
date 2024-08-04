@@ -19,6 +19,9 @@ repositories {
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
+    implementation("io.awspring.cloud:spring-cloud-aws-starter:3.1.1")
+    implementation("software.amazon.awssdk:auth:2.26.27")
+    implementation("software.amazon.awssdk:http-auth-aws:2.26.27")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
